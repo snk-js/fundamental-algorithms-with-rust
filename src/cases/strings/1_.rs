@@ -6,7 +6,7 @@
 // * 'abcdef' => ['ab', 'cd', 'ef']
 
 // credits: https://www.codewars.com/users/Unnamed
-use itertools::Itertools;
+use core::fmt::Debug;
 
 fn solution(s: &str) -> Vec<String> {
     s.chars()
